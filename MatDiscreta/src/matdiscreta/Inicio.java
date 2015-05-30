@@ -1,3 +1,6 @@
+
+import javax.swing.JFrame;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -25,57 +28,62 @@ public class Inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        btnParentesis = new javax.swing.JButton();
+        btnNegada = new javax.swing.JButton();
+        btnConjuncion = new javax.swing.JButton();
+        btnDisyuncion = new javax.swing.JButton();
+        btnImplicacion = new javax.swing.JButton();
+        btnBicondicional = new javax.swing.JButton();
+        btnCancelar = new javax.swing.JButton();
+        btnDisyuncionExclusiva = new javax.swing.JButton();
+        btnCalcular = new javax.swing.JButton();
+        btnP = new javax.swing.JButton();
+        btnQ = new javax.swing.JButton();
+        btnR = new javax.swing.JButton();
+        lblTermino1 = new javax.swing.JLabel();
+        lblTermino2 = new javax.swing.JLabel();
+        lblTermino3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("(   )");
+        btnParentesis.setText("(   )");
 
-        jButton2.setText("N");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnNegada.setText("N");
+        btnNegada.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnNegadaActionPerformed(evt);
             }
         });
 
-        jButton3.setText("^");
+        btnConjuncion.setText("^");
 
-        jButton4.setText("v");
+        btnDisyuncion.setText("v");
 
-        jButton5.setText("=>");
+        btnImplicacion.setText("=>");
 
-        jButton6.setText("<=>");
+        btnBicondicional.setText("<=>");
 
-        jButton7.setText("Cancelar");
+        btnCancelar.setText("Cancelar");
 
-        jButton8.setText("Xv");
+        btnDisyuncionExclusiva.setText("Xv");
 
-        jButton9.setText("Calcular");
+        btnCalcular.setText("Calcular");
 
-        jButton10.setText("P");
-
-        jButton11.setText("Q");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        btnP.setText("P");
+        btnP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                btnPActionPerformed(evt);
             }
         });
 
-        jButton12.setText("R");
+        btnQ.setText("Q");
+        btnQ.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnQActionPerformed(evt);
+            }
+        });
+
+        btnR.setText("R");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -85,37 +93,37 @@ public class Inicio extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(26, 26, 26)
-                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnQ, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(30, 30, 30)
-                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnR, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(btnParentesis, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnConjuncion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnDisyuncionExclusiva, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(26, 26, 26)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jButton7))
+                                        .addComponent(btnImplicacion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(btnNegada, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(btnCancelar))
                                 .addGap(30, 30, 30)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton9)
+                                    .addComponent(btnCalcular)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(btnBicondicional, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(btnDisyuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(16, 16, 16)
-                                .addComponent(jLabel1)
+                                .addComponent(lblTermino1)
                                 .addGap(67, 67, 67)
-                                .addComponent(jLabel2)
+                                .addComponent(lblTermino2)
                                 .addGap(69, 69, 69)
-                                .addComponent(jLabel3)))
+                                .addComponent(lblTermino3)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -124,59 +132,64 @@ public class Inicio extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                    .addComponent(lblTermino1)
+                    .addComponent(lblTermino2)
+                    .addComponent(lblTermino3))
                 .addGap(202, 202, 202)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton12)
-                    .addComponent(jButton10)
-                    .addComponent(jButton11))
+                    .addComponent(btnR)
+                    .addComponent(btnP)
+                    .addComponent(btnQ))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton4)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(btnDisyuncion)
+                    .addComponent(btnParentesis)
+                    .addComponent(btnNegada))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton5)
-                    .addComponent(jButton6))
+                    .addComponent(btnConjuncion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnImplicacion)
+                    .addComponent(btnBicondicional))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton7)
-                    .addComponent(jButton8)
-                    .addComponent(jButton9))
+                    .addComponent(btnCancelar)
+                    .addComponent(btnDisyuncionExclusiva)
+                    .addComponent(btnCalcular))
                 .addContainerGap())
         );
 
-        jButton1.getAccessibleContext().setAccessibleName("btnParentesis");
-        jButton2.getAccessibleContext().setAccessibleName("btnNegada");
-        jButton3.getAccessibleContext().setAccessibleName("btnConjuncion");
-        jButton4.getAccessibleContext().setAccessibleName("btnDisyuncion");
-        jButton5.getAccessibleContext().setAccessibleName("btnImplicacion");
-        jButton6.getAccessibleContext().setAccessibleName("btnBicondicional");
-        jButton7.getAccessibleContext().setAccessibleName("btnCancelar");
-        jButton8.getAccessibleContext().setAccessibleName("btnDisyuncionExclusiva");
-        jButton9.getAccessibleContext().setAccessibleName("btnCalcular");
-        jButton10.getAccessibleContext().setAccessibleName("btnP");
-        jButton11.getAccessibleContext().setAccessibleName("btnQ");
-        jButton12.getAccessibleContext().setAccessibleName("btnR");
-        jLabel1.getAccessibleContext().setAccessibleName("lblTermino1");
-        jLabel2.getAccessibleContext().setAccessibleName("lblTermino2");
-        jLabel3.getAccessibleContext().setAccessibleName("lblTermino3");
-        jLabel3.getAccessibleContext().setAccessibleDescription("");
+        btnParentesis.getAccessibleContext().setAccessibleName("btnParentesis");
+        btnNegada.getAccessibleContext().setAccessibleName("btnNegada");
+        btnConjuncion.getAccessibleContext().setAccessibleName("btnConjuncion");
+        btnDisyuncion.getAccessibleContext().setAccessibleName("btnDisyuncion");
+        btnImplicacion.getAccessibleContext().setAccessibleName("btnImplicacion");
+        btnBicondicional.getAccessibleContext().setAccessibleName("btnBicondicional");
+        btnCancelar.getAccessibleContext().setAccessibleName("btnCancelar");
+        btnDisyuncionExclusiva.getAccessibleContext().setAccessibleName("btnDisyuncionExclusiva");
+        btnCalcular.getAccessibleContext().setAccessibleName("btnCalcular");
+        btnP.getAccessibleContext().setAccessibleName("btnP");
+        btnQ.getAccessibleContext().setAccessibleName("btnQ");
+        btnR.getAccessibleContext().setAccessibleName("btnR");
+        lblTermino1.getAccessibleContext().setAccessibleName("lblTermino1");
+        lblTermino2.getAccessibleContext().setAccessibleName("lblTermino2");
+        lblTermino3.getAccessibleContext().setAccessibleName("lblTermino3");
+        lblTermino3.getAccessibleContext().setAccessibleDescription("");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnNegadaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNegadaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnNegadaActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    private void btnQActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+    }//GEN-LAST:event_btnQActionPerformed
+
+    private void btnPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPActionPerformed
+        // TODO add your handling code here:
+        Habilitar();
+    }//GEN-LAST:event_btnPActionPerformed
 
     /**
      * @param args the command line arguments
@@ -212,22 +225,28 @@ public class Inicio extends javax.swing.JFrame {
             }
         });
     }
+    
+    public void Habilitar()
+    {
+        btnCalcular.enable(false);
+             
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton btnBicondicional;
+    private javax.swing.JButton btnCalcular;
+    private javax.swing.JButton btnCancelar;
+    private javax.swing.JButton btnConjuncion;
+    private javax.swing.JButton btnDisyuncion;
+    private javax.swing.JButton btnDisyuncionExclusiva;
+    private javax.swing.JButton btnImplicacion;
+    private javax.swing.JButton btnNegada;
+    private javax.swing.JButton btnP;
+    private javax.swing.JButton btnParentesis;
+    private javax.swing.JButton btnQ;
+    private javax.swing.JButton btnR;
+    private javax.swing.JLabel lblTermino1;
+    private javax.swing.JLabel lblTermino2;
+    private javax.swing.JLabel lblTermino3;
     // End of variables declaration//GEN-END:variables
 }
