@@ -16,21 +16,9 @@ public class MatDiscreta {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Presentacion.Inicio ini = new Presentacion.Inicio();
+        ini.show();
         System.out.println("Hello negras");
-        Variable P[] = new Variable[8];
-        Variable Q[] = new Variable[8];
-        Variable R[] = new Variable[8];
-        
-        for (int i = 0; i < 8; i++) {
-            P[i] = new Variable((i<=4));//Se debe pasar un valor true o false, pase una condicion
-            R[i] = new Variable((i%2==0));
-        }
-        for (int i = 0; i < 4; i++) {
-            boolean aux = (i%2==0);
-            for (int j = 0; j < 2; j++) {
-                Q[i] = new Variable(aux);
-            }
-        }
     }
     
 }
