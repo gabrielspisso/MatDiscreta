@@ -139,6 +139,9 @@
       <AccessibilityProperties>
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="btnConjuncion"/>
       </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConjuncionActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnDisyuncion">
       <Properties>
@@ -147,6 +150,9 @@
       <AccessibilityProperties>
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="btnDisyuncion"/>
       </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDisyuncionActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnImplicacion">
       <Properties>
@@ -155,6 +161,9 @@
       <AccessibilityProperties>
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="btnImplicacion"/>
       </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImplicacionActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnBicondicional">
       <Properties>
@@ -163,6 +172,9 @@
       <AccessibilityProperties>
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="btnBicondicional"/>
       </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBicondicionalActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnCancelar">
       <Properties>
@@ -179,6 +191,9 @@
       <AccessibilityProperties>
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="btnDisyuncionExclusiva"/>
       </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDisyuncionExclusivaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnCalcular">
       <Properties>
@@ -217,6 +232,9 @@
       <AccessibilityProperties>
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="btnR"/>
       </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblTermino1">
       <AccessibilityProperties>

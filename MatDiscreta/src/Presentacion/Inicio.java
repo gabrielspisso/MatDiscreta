@@ -58,16 +58,41 @@ public class Inicio extends javax.swing.JFrame {
         });
 
         btnConjuncion.setText("^");
+        btnConjuncion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnConjuncionActionPerformed(evt);
+            }
+        });
 
         btnDisyuncion.setText("v");
+        btnDisyuncion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDisyuncionActionPerformed(evt);
+            }
+        });
 
         btnImplicacion.setText("=>");
+        btnImplicacion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnImplicacionActionPerformed(evt);
+            }
+        });
 
         btnBicondicional.setText("<=>");
+        btnBicondicional.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBicondicionalActionPerformed(evt);
+            }
+        });
 
         btnCancelar.setText("Cancelar");
 
         btnDisyuncionExclusiva.setText("Xv");
+        btnDisyuncionExclusiva.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDisyuncionExclusivaActionPerformed(evt);
+            }
+        });
 
         btnCalcular.setText("Calcular");
 
@@ -86,6 +111,11 @@ public class Inicio extends javax.swing.JFrame {
         });
 
         btnR.setText("R");
+        btnR.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -186,12 +216,44 @@ public class Inicio extends javax.swing.JFrame {
 
     private void btnQActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQActionPerformed
         // TODO add your handling code here:
+        HabilitarOperaciones();
     }//GEN-LAST:event_btnQActionPerformed
 
     private void btnPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPActionPerformed
         // TODO add your handling code here:
-        Habilitar();
+        HabilitarOperaciones();
+        
     }//GEN-LAST:event_btnPActionPerformed
+
+    private void btnRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRActionPerformed
+        // TODO add your handling code here:
+        HabilitarOperaciones();
+    }//GEN-LAST:event_btnRActionPerformed
+
+    private void btnDisyuncionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDisyuncionActionPerformed
+        // TODO add your handling code here:
+        HabilitarPreposiciones();
+    }//GEN-LAST:event_btnDisyuncionActionPerformed
+
+    private void btnConjuncionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConjuncionActionPerformed
+        // TODO add your handling code here:
+        HabilitarPreposiciones();
+    }//GEN-LAST:event_btnConjuncionActionPerformed
+
+    private void btnImplicacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnImplicacionActionPerformed
+        // TODO add your handling code here:
+        HabilitarPreposiciones();
+    }//GEN-LAST:event_btnImplicacionActionPerformed
+
+    private void btnBicondicionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBicondicionalActionPerformed
+        // TODO add your handling code here:
+        HabilitarPreposiciones();
+    }//GEN-LAST:event_btnBicondicionalActionPerformed
+
+    private void btnDisyuncionExclusivaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDisyuncionExclusivaActionPerformed
+        // TODO add your handling code here:
+        HabilitarPreposiciones();
+    }//GEN-LAST:event_btnDisyuncionExclusivaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -228,10 +290,34 @@ public class Inicio extends javax.swing.JFrame {
         });
     }
     
-    public void Habilitar()
+    public void HabilitarOperaciones()
     {
-        btnCalcular.enable(false);
-             
+        btnNegada.setEnabled(false);
+        btnP.setEnabled(false);
+        btnQ.setEnabled(false);
+        btnR.setEnabled(false);
+        btnParentesis.setEnabled(false);
+        
+        btnBicondicional.setEnabled(true);
+        btnConjuncion.setEnabled(true);
+        btnDisyuncion.setEnabled(true);
+        btnDisyuncionExclusiva.setEnabled(true);
+        btnImplicacion.setEnabled(true);
+    }
+    
+    public void HabilitarPreposiciones()
+    {
+        btnNegada.setEnabled(true);
+        btnP.setEnabled(true);
+        btnQ.setEnabled(true);
+        btnR.setEnabled(true);
+        btnParentesis.setEnabled(true);
+        
+        btnBicondicional.setEnabled(false);
+        btnConjuncion.setEnabled(false);
+        btnDisyuncion.setEnabled(false);
+        btnDisyuncionExclusiva.setEnabled(false);
+        btnImplicacion.setEnabled(false);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
