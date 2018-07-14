@@ -1,0 +1,27 @@
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\bin\Debug\Compi.exe.config
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\bin\Debug\Compi.exe
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\bin\Debug\Compi.pdb
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\obj\Debug\Compi.csprojResolveAssemblyReference.cache
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\obj\Debug\Compi.Form1.resources
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\obj\Debug\Compi.Properties.Resources.resources
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\obj\Debug\Compi.csproj.GenerateResource.Cache
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\obj\Debug\Compi.exe
+c:\users\facundo\documents\visual studio 2013\Projects\Compi\Compi\obj\Debug\Compi.pdb
+C:\Users\Gabriel\Desktop\Compi\Compi\bin\Debug\Compi.exe.config
+C:\Users\Gabriel\Desktop\Compi\Compi\obj\Debug\Compi.exe
+C:\Users\Gabriel\Desktop\Compi\Compi\obj\Debug\Compi.pdb
+C:\Users\Gabriel\Desktop\Compi\Compi\bin\Debug\Compi.exe
+C:\Users\Gabriel\Desktop\Compi\Compi\bin\Debug\Compi.pdb
+C:\Users\Gabriel\Desktop\Compi\Compi\obj\Debug\Compi.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\Compi\Compi\obj\Debug\Compi.Form1.resources
+C:\Users\Gabriel\Desktop\Compi\Compi\obj\Debug\Compi.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\Compi\Compi\obj\Debug\Compi.csproj.GenerateResource.Cache
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\bin\Debug\Compi.exe.config
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\obj\Debug\Compi.exe
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\obj\Debug\Compi.pdb
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\bin\Debug\Compi.exe
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\bin\Debug\Compi.pdb
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\obj\Debug\Compi.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\obj\Debug\Compi.Form1.resources
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\obj\Debug\Compi.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\Ejercicio 4\Codigo\Compi\obj\Debug\Compi.csproj.GenerateResource.Cache

@@ -1,0 +1,10 @@
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.Form1.resources
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.Properties.Resources.resources
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.csproj.GenerateResource.Cache
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\bin\Debug\Discreta2Ejercicio.exe
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\bin\Debug\Discreta2Ejercicio.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.exe
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.pdb
+C:\Users\facundo\Desktop\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.exe
+C:\Users\facundo\Desktop\Discreta2Ejercicio\Discreta2Ejercicio\obj\Debug\Discreta2Ejercicio.pdb

@@ -1,0 +1,15 @@
+Descripción:
+
+Este programa permite determinar el valor de verdad de una proposición lógica compuesta, y además muestra la tabla de verdad con todas las combinaciones posibles de acuerdo a la cantidad de variables de la proposición, indicando si la proposición ingresada se trata de una tautología, contingencia o contradicción.
+
+Permite utilizar los siguentes operadores lógicos:
+
+ - Negación (No) '!'
+ - Conjunción (Y) '&'
+ - Disyunción (O) '|'
+ - Condicional (Si.. entonces) '>'
+ - Bicondicional (Si y solo si) '='
+
+En algunos casos, es necesario el uso de los paréntesis "(...)" para establecer prioridades entre operaciones.
+
+Se pueden definir variables: cada variable se representa con una sola letra (a-z o A-Z).
